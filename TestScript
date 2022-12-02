@@ -574,9 +574,8 @@ if getserver.StatusCode == 200 and gethwid.StatusCode == 200 then
                     ScreenGui:Destroy()
                     
                     loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G_Hub_Extras/main/Universal_Client_Bypass"))()
-                    wait(2)
-                    
-repeat wait() until game:IsLoaded()
+                    wait(1)
+                    repeat wait() until game:IsLoaded()
 function loadcheck()
     if isfile("Save Settings Emerald Hub"..game.Players.LocalPlayer.Name..".txt") then
         else
